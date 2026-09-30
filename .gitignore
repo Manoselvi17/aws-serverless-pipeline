@@ -1,0 +1,15 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform.lock.hcl
+crash.log
+tfplan
+
+# Lambda build artifact
+lambda.zip
+
+# IDE
+.vscode/
+.idea/
